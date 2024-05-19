@@ -45,13 +45,17 @@ This part of the project involves developing a Python program with a graphical u
 ## Screenshots
 
 **Input NFA**
+
 <img src="Diagrams/NFA_input.jpg" alt="Sequence Diagram" width="70%" height="50%">
 
 **Output NFA**
+
 <img src="Diagrams/NFA_output.jpg" alt="Sequence Diagram" width="70%" height="50%">
 
 **Input CFG**
+
 <img src="Diagrams/CFG_input.jpg" alt="Sequence Diagram" width="70%" height="50%">
 
 **Output PDA**
+
 <img src="Diagrams/CFG_output.jpg" alt="Sequence Diagram" width="70%" height="50%">
