@@ -1,0 +1,17 @@
+digraph {
+	rankdir=LR
+	node [shape=circle]
+	q0
+	node [shape=doublecircle]
+	q1
+	node [shape=circle]
+	Dead
+	node [shape=none]
+	""
+	"" -> q0
+	q0 -> q1 [label=a]
+	q0 -> Dead [label=b]
+	q1 -> q1 [label=a]
+	q1 -> Dead [label=b]
+	Dead -> Dead [label="a,b"]
+}

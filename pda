@@ -1,0 +1,28 @@
+digraph {
+	rankdir=LR
+	node [shape=circle]
+	q0
+	node [shape=circle]
+	q1
+	node [shape=circle]
+	qf
+	node [shape=none]
+	""
+	"" -> q0
+	q0 -> q1 [label="ε, ε -> E$ 
+"]
+	q1 -> q1 [label="ε, E -> E+T 
+,ε, E -> T 
+,ε, T -> TxF 
+,ε, T -> F 
+,ε, F -> (E) 
+,ε, F -> a 
+,+, + -> ε 
+,x, x -> ε 
+,(, ( -> ε 
+,), ) -> ε 
+,a, a -> ε 
+"]
+	q1 -> qf [label="ε, $ -> ε 
+"]
+}
